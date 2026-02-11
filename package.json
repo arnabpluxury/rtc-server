@@ -1,0 +1,21 @@
+{
+  "name": "synerstudio-rtc-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.2",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/ws": "^8.5.12"
+  }
+}
